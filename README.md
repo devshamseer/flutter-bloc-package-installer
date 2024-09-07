@@ -1,16 +1,23 @@
-# flutter_bloc_full
+# Flutter Package Installer
 
-A new Flutter project.
+This README file provides a URL to install Flutter packages.
 
-## Getting Started
+## Installation
 
-This project is a starting point for a Flutter application.
+To install the Flutter packages, click on the following link:
 
-A few resources to get you started if this is your first Flutter project:
+[Install Flutter Packages](https://pub.dev/packages/flutter_bloc/install)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+This link will install the following packages:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* `flutter_bloc`
+* `bloc`
+* `bloc_test`
+* `equatable`
+
+## Manual Installation
+
+If you prefer to install the packages manually, you can use the following command:
+
+```bash
+flutter pub add flutter_bloc bloc bloc_test equatable

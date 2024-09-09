@@ -215,7 +215,7 @@ class AppRouter {
 
 EOT
 
-
+flutter pub run build_runner build --delete-conflicting-outputs
 
 
 echo ➡️ Clean architecture  created successfully! ✅

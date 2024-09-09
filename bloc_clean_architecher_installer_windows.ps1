@@ -138,8 +138,9 @@ class MyBlocObserver extends BlocObserver {
 Set-Content ./lib/GoRouter/gorouter.dart @'
 import 'package:go_router/go_router.dart';
 import '../Observer/gorouter_observer.dart';
-
 class AppRouter {
+// GoRouter configuration
+
   static const root = '/';
   static const allBlogs = '/blogs';
   static const favoriteBlogs = '/favorite';
@@ -164,6 +165,15 @@ class AppRouter {
         },
       ),
     ],
+
+//     redirect: (context, state) {
+// if (1==2) {
+//   return root;
+
+// }else{
+//   return allBlogs;
+// }
+    // },
   );
 }
 '@

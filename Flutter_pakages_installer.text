@@ -108,7 +108,7 @@ EOT
 
 
 
-cat <<EOT > ./lib/domain/failures/main_failures.dart
+cat <<'EOT' > ./lib/domain/failures/main_failures.dart
 import 'package:freezed_annotation/freezed_annotation.dart';
 part 'main_failures.freezed.dart';
 

@@ -10,9 +10,14 @@ This link will install  the following dev packages:
   injectable_generator: ^2.6.2
 ```
 
-## Url Using Installation
+## URL Using Installation (Mac & Linux)
 
-If you prefer to install the packages manually, you can use the following command:
 
 ```bash
 source <(curl -s https://devshamseer.github.io/flutter-bloc-package-installer/Flutter_pakages_installer.text)
+```
+## URL Using Installation (Windows)
+
+```bash
+Invoke-Expression -Command (curl -s https://devshamseer.github.io/flutter-bloc-package-installer/bloc_clean_architecher_installer_windows.ps1)
+```

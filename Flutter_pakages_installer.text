@@ -8,3 +8,4 @@ flutter pub add injectable
 flutter pub add go_router
 flutter pub add shared_preferences
 dart pub add dev:build_runner
+flutter pub add --dev build_runner freezed json_serializable injectable_generator

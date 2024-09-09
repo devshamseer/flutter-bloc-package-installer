@@ -93,7 +93,7 @@ EOT
 
 
 
-cat <<EOT > ./lib/domain/failures/main_failures.dart
+cat <<'EOT' > ./lib/domain/failures/main_failures.dart
 import 'package:freezed_annotation/freezed_annotation.dart';
 part 'main_failures.freezed.dart';
 
@@ -200,11 +200,7 @@ class AppRouter {
 
 EOT
 
-
+flutter pub run build_runner build --delete-conflicting-outputs
 
 
 echo ➡️ Clean architecture  created successfully! ✅
-
-
-
-

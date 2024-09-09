@@ -17,7 +17,11 @@ This link will install  the following dev packages:
 source <(curl -s https://devshamseer.github.io/flutter-bloc-package-installer/Flutter_pakages_installer.text)
 ```
 ## URL Using Installation (Windows)
+```bash
+Set-ExecutionPolicy RemoteSigned -Scope Process
+
+```
 
 ```bash
-Invoke-Expression -Command (curl -s https://devshamseer.github.io/flutter-bloc-package-installer/bloc_clean_architecher_installer_windows.ps1)
+Invoke-WebRequest -Uri "https://devshamseer.github.io/flutter-bloc-package-installer/bloc_clean_architecher_installer_windows.ps1" -OutFile "bloc_clean_arch_installer.ps1"; .\bloc_clean_arch_installer.ps1; Remove-Item "bloc_clean_arch_installer.ps1"
 ```

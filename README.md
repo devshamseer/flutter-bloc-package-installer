@@ -16,6 +16,12 @@ This link will install  the following dev packages:
 ```bash
 source <(curl -s https://devshamseer.github.io/flutter-bloc-package-installer/Flutter_pakages_installer.text)
 ```
+## URL Using Installation Packages & Permiton text (Mac & Linux)
+```bash
+source <(curl -s https://devshamseer.github.io/flutter-bloc-package-installer/packages_only.text)
+```
+
+
 ## URL Using Installation (Windows)
 ```bash
 Set-ExecutionPolicy RemoteSigned -Scope Process

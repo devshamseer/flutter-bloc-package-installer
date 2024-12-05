@@ -10,7 +10,7 @@ This link will install  the following dev packages:
   injectable_generator: ^2.6.2
 ```
 
-## URL Using Installation (Mac & Linux)
+## URL Using Installation Clean Architecture (Mac & Linux)
 
 
 ```bash

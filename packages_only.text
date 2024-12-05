@@ -22,7 +22,7 @@ flutter pub add hive_flutter
 flutter pub add hive
 dart pub add hive_generator
 flutter pub add shared_preferences
-echo ➡️ Local DB 💿 Installed (HIVE,shared_preferences)! ✅
+echo ➡️ Local DB 💿 Installed HIVE,shared_preferences! ✅
 
 mkdir -p ./assets/images
 mkdir -p ./assets/icons

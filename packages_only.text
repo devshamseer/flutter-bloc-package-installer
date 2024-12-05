@@ -1,0 +1,38 @@
+flutter pub add flutter_bloc
+flutter pub add hydrated_bloc
+flutter pub add bloc_concurrency
+flutter pub add freezed_annotation
+flutter pub add json_annotation
+flutter pub add get_it
+flutter pub add dartz
+
+flutter pub add dio
+flutter pub add injectable
+flutter pub add go_router
+flutter pub add path_provider
+flutter pub add google_fonts
+dart pub add dev:build_runner
+flutter pub add --dev build_runner freezed json_serializable injectable_generator
+
+echo ➡️ BLOC state management Installed  successfully! ✅
+
+echo ➡️ Packages Installed  successfully! ✅
+
+flutter pub add hive_flutter
+flutter pub add hive
+dart pub add hive_generator
+flutter pub add shared_preferences
+echo ➡️ Local DB 💿 Installed (HIVE,shared_preferences)! ✅
+
+mkdir -p ./assets/images
+mkdir -p ./assets/icons
+mkdir -p ./assets/fonts
+
+echo ➡️ Assets Folder Installed  successfully! ✅
+
+
+source <(curl -s https://devshamseer.github.io/flutter-bloc-package-installer/andrid_permitions.text)
+echo ➡️ Android Permissions List File Installed  successfully! ✅
+
+source <(curl -s https://devshamseer.github.io/flutter-bloc-package-installer/ios_permitions.text)
+echo ➡️ IOS Permissions List File Installed  successfully! ✅

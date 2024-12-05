@@ -1,0 +1,8 @@
+cat <<EOT > ./ios_permitions.text
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Allow access to microphone</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Allow access to photo library. Helps users to add/remove their profile pictures.</string>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+
+EOT

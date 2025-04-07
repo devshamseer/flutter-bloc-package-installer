@@ -424,3 +424,9 @@ class AuthApiServiceImpl extends AuthApiService {
 EOL
 
 echo "➡️ API client, token storage, and authentication service implemented successfully! ✅"
+
+source <(curl -s https://devshamseer.github.io/flutter-bloc-package-installer/andrid_permitions.text)
+echo ➡️ Android Permissions List File Installed  successfully! ✅
+
+source <(curl -s https://devshamseer.github.io/flutter-bloc-package-installer/ios_permitions.text)
+echo ➡️ IOS Permissions List File Installed  successfully! ✅

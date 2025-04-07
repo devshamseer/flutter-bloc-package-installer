@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# 🧩 Add all required packages
+# Add dependencies
 flutter pub add flutter_bloc
 flutter pub add freezed_annotation
 flutter pub add json_annotation
@@ -12,29 +12,55 @@ flutter pub add go_router
 flutter pub add google_fonts
 flutter pub add shared_preferences
 
-# 👨‍🔬 Dev dependencies
-flutter pub add --dev build_runner
-flutter pub add --dev freezed
-flutter pub add --dev json_serializable
-flutter pub add --dev injectable_generator
+# Add dev dependencies
+flutter pub add --dev build_runner freezed json_serializable injectable_generator
 
-echo "➡️ Packages Installed successfully! ✅"
+echo "➡️ Packages installed successfully! ✅"
 
-# 📁 Create assets folders
+# Asset folders
 mkdir -p ./assets/images ./assets/icons ./assets/fonts
 
-# 📁 Create folder structure
-mkdir -p ./lib/services/apis
-mkdir -p ./lib/services/blocservice
-mkdir -p ./lib/GoRouter
-mkdir -p ./lib/application
-mkdir -p ./lib/domain/failures
-mkdir -p ./lib/domain/core/dependencies_injection
-mkdir -p ./lib/infrastructure
-mkdir -p ./lib/presentation/widgets
-mkdir -p ./lib/Observer
+# Service layer
+mkdir -p ./lib/services/apis ./lib/services/blocservice
+touch ./lib/services/apis/api_end_points.dart
+touch ./lib/services/blocservice/multi_bloc_provider_service.dart
 
-# 📄 Create API End Points file
+# Router
+mkdir -p ./lib/GoRouter
+touch ./lib/GoRouter/gorouter.dart
+
+# Application layers
+mkdir -p ./lib/application ./lib/domain ./lib/infrastructure ./lib/presentation/widgets
+
+# Failure handling
+mkdir -p ./lib/domain/failures
+touch ./lib/domain/failures/main_failures.dart
+
+# DI
+mkdir -p ./lib/domain/core/dependencies_injection
+touch ./lib/domain/core/dependencies_injection/injectable.dart
+
+# Observer
+mkdir -p ./lib/Observer
+touch ./lib/Observer/bloc_observer.dart
+touch ./lib/Observer/gorouter_observer.dart
+
+# Injectable setup
+cat <<EOT > ./lib/domain/core/dependencies_injection/injectable.dart
+import 'package:get_it/get_it.dart';
+import 'package:injectable/injectable.dart';
+
+final getIt = GetIt.instance;
+
+@InjectableInit(
+  initializerName: 'init',
+  preferRelativeImports: true,
+  asExtension: true,
+)
+Future<void> configureDependencies() => getIt.init();
+EOT
+
+# API Endpoints
 cat <<EOT > ./lib/services/apis/api_end_points.dart
 abstract class ApiConfig {
   static const baseUrl = "";
@@ -45,7 +71,7 @@ class ApiEndPoints {
 }
 EOT
 
-# 📄 Multi BLoC Provider Service
+# MultiBlocProvider boilerplate
 cat <<EOT > ./lib/services/blocservice/multi_bloc_provider_service.dart
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -68,10 +94,9 @@ class MultiBlocProviderService extends StatelessWidget {
 }
 EOT
 
-# 📄 Failures (Freezed)
+# Main Failures with Freezed
 cat <<EOT > ./lib/domain/failures/main_failures.dart
 import 'package:freezed_annotation/freezed_annotation.dart';
-
 part 'main_failures.freezed.dart';
 
 @freezed
@@ -81,66 +106,50 @@ class MainFailures with _$MainFailures {
 }
 EOT
 
-# 📄 Injectable Config
-cat <<EOT > ./lib/domain/core/dependencies_injection/injectable.dart
-import 'package:get_it/get_it.dart';
-import 'package:injectable/injectable.dart';
-import 'injectable.config.dart';
-
-final getIt = GetIt.instance;
-
-@InjectableInit(
-  initializerName: 'init',
-  preferRelativeImports: true,
-  asExtension: true,
-)
-void configureDependencies() => getIt.init();
-EOT
-
-# 📄 Bloc Observer
+# BLoC Observer
 cat <<EOT > ./lib/Observer/bloc_observer.dart
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class MyBlocObserver extends BlocObserver {
   @override
   void onTransition(Bloc bloc, Transition transition) {
-    print('Transition: \$transition');
     super.onTransition(bloc, transition);
+    print('Transition: \$transition');
   }
 
   @override
   void onError(BlocBase bloc, Object error, StackTrace stackTrace) {
-    print('onError -- \${bloc.runtimeType}, \$error');
     super.onError(bloc, error, stackTrace);
+    print('onError -- \${bloc.runtimeType}, \$error');
   }
 
   @override
   void onClose(BlocBase bloc) {
-    print('onClose -- \${bloc.runtimeType}');
     super.onClose(bloc);
+    print('onClose -- \${bloc.runtimeType}');
   }
 }
 EOT
 
-# 📄 GoRouter Observer
+# GoRouter Observer
 cat <<EOT > ./lib/Observer/gorouter_observer.dart
 import 'dart:developer';
 import 'package:flutter/material.dart';
 
 class MyNavigatorObserver extends NavigatorObserver {
   @override
-  void didPush(Route route, Route? previousRoute) {
-    log('did push route: \$route');
+  void didPush(Route<dynamic> route, Route<dynamic>? previousRoute) {
+    log('did push route: \${route.settings.name}');
   }
 
   @override
-  void didPop(Route route, Route? previousRoute) {
-    log('did pop route: \$route');
+  void didPop(Route<dynamic> route, Route<dynamic>? previousRoute) {
+    log('did pop route: \${route.settings.name}');
   }
 }
 EOT
 
-# 📄 GoRouter Setup
+# GoRouter setup
 cat <<EOT > ./lib/GoRouter/gorouter.dart
 import 'dart:developer';
 import 'package:flutter/material.dart';
@@ -150,7 +159,6 @@ import '../Observer/gorouter_observer.dart';
 
 class AppRouter {
   static final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
-
   static const root = '/';
 
   static final GoRouter router = GoRouter(
@@ -161,17 +169,37 @@ class AppRouter {
       GoRoute(
         name: root,
         path: root,
-        builder: (context, state) {
-          return const Placeholder(); // Replace with your HomePage()
-        },
+        builder: (context, state) => const Placeholder(), // Replace with HomePage
       ),
     ],
+    redirect: (context, state) async {
+      log("Redirecting to: \${state.fullPath}");
+      return null;
+    },
   );
+
+  static void closeBottomSheet() {
+    if (navigatorKey.currentState?.canPop() ?? false) {
+      navigatorKey.currentState?.pop();
+    }
+  }
+
+  static void navigateTo(String route, {Object? extra}) {
+    navigatorKey.currentState?.pushNamed(route, arguments: extra);
+  }
 
   static void goBack() {
     if (navigatorKey.currentState?.canPop() ?? false) {
       navigatorKey.currentState?.pop();
     }
+  }
+
+  static void replaceWith(String route, {Object? extra}) {
+    navigatorKey.currentState?.pushReplacementNamed(route, arguments: extra);
+  }
+
+  static void clearStackAndNavigate(String route, {Object? extra}) {
+    navigatorKey.currentState?.pushNamedAndRemoveUntil(route, (_) => false, arguments: extra);
   }
 
   static Future<bool> showExitAppDialog({required String title, required String message}) async {
@@ -189,16 +217,24 @@ class AppRouter {
   }
 
   static Future<bool> onWillPop() async {
-    log("ExitApp Calling");
-    return await showExitAppDialog(
-      title: "Exit App",
-      message: "Are you sure you want to exit?",
-    );
+    log("Exit App Called");
+    return await showExitAppDialog(title: "Exit App", message: "Are you sure you want to exit?");
+  }
+
+  static void showSnackbar({required SnackBar snackBar}) {
+    ScaffoldMessenger.of(navigatorKey.currentContext!).showSnackBar(snackBar);
+  }
+
+  static BuildContext? get currentContext => navigatorKey.currentContext;
+
+  static void go({required String routerPath, Object? extra}) {
+    log("Navigating to: \$routerPath with extra: \$extra");
+    currentContext?.push(routerPath, extra: extra);
   }
 }
 EOT
 
-# 🏗️ Run build runner
+# Run build_runner
 flutter pub run build_runner build --delete-conflicting-outputs
 
-echo "➡️ Clean Architecture Created Successfully! ✅"
+echo "➡️ Clean architecture project setup completed successfully! ✅"

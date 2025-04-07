@@ -56,12 +56,24 @@ dev_dependencies:
 
 ```
 
+
+## URL Using Installation Clean Architecture Folder 📁 (Mac & Linux)
+
+
+```bash
+source <(curl -s https://devshamseer.github.io/flutter-bloc-package-installer/clean_architecture_folder_installer.text)
+```
+
+
 ## URL Using Installation Clean Architecture (Mac & Linux)
 
 
 ```bash
 source <(curl -s https://devshamseer.github.io/flutter-bloc-package-installer/Flutter_pakages_installer.text)
 ```
+
+
+
 ## URL Using Installation Packages & Permiton text (Mac & Linux)
 ```bash
 source <(curl -s https://devshamseer.github.io/flutter-bloc-package-installer/packages_only.text)

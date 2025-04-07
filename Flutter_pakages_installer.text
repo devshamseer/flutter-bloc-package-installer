@@ -171,35 +171,41 @@ EOT
 
 
 cat <<EOT > ./lib/GoRouter/gorouter.dart
-
+import 'dart:developer';
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:go_router/go_router.dart';
 import '../Observer/gorouter_observer.dart';
+
 class AppRouter {
 // GoRouter configuration
-
+  static final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
   static const root = '/';
-  static const allBlogs = '/blogs';
-  static const favoriteBlogs = '/favorite';
+  static const expenseDetails = '/ExpenseDetails';
+  static const expenseDetailsChartById = '/expenseDetailsChartById';
   static const singleArticle = '/article';
 
   static GoRouter router = GoRouter(
-    initialLocation: '/',
+ navigatorKey: navigatorKey,
+ initialLocation: root,
+// initialLocation: expenseDetailsChartById,
     observers: [MyNavigatorObserver()],
+    redirect: (context, state) async {
+log("redirect ${state.fullPath}");
+
+    },
     routes: [
+      
       GoRoute(
-        name: 'Home',
+        name: root,
         path: root,
-        builder: (context, state) {
+        builder: (context, state) {  
           return HomePage();
         },
       ),
-      GoRoute(
-        name: 'Blog',
-        path: allBlogs,
-        builder: (context, state) {
-          return blogs();
-        },
-      ),
+      
+
+
     ],
 
 //     redirect: (context, state) {
@@ -213,8 +219,7 @@ class AppRouter {
   );
 
 
-
- // Method to close BottomSheet without context
+  // Method to close BottomSheet without context
   static void closeBottomSheet() {
     if (navigatorKey.currentState?.canPop() ?? false) {
       navigatorKey.currentState?.pop();
@@ -311,10 +316,9 @@ static void showSnackbar({required SnackBar snackBar,}) {
     navigatorKey.currentContext?.push(routerPath,extra: extra );
   }
 
+ 
 
-  
 }
-
 EOT
 
 flutter pub run build_runner build --delete-conflicting-outputs

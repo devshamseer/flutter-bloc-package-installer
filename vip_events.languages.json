@@ -1,0 +1,1726 @@
+[{
+  "_id": {
+    "$oid": "67b33c7967c25922ec4192c0"
+  },
+  "title": "Welcome to the Marasem app",
+  "english_text": "Welcome to Marasim app",
+  "arabic_text": "تمت مزامنة الدليل النشط بنجاح",
+  "createdAt": {
+    "$date": "2025-02-17T13:41:13.437Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-16T14:05:45.676Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8662"
+  },
+  "title": "contacts.modal.groups.label",
+  "english_text": "Group",
+  "arabic_text": "مجموعة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8663"
+  },
+  "title": "contacts.modal.groups.plhd",
+  "english_text": "Group name",
+  "arabic_text": "اسم المجموعة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8664"
+  },
+  "title": "contacts.list.button.title.new.contact",
+  "english_text": "New contact",
+  "arabic_text": "جهة اتصال جديدة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8665"
+  },
+  "title": "contacts.list.button.title.new.group",
+  "english_text": "New group",
+  "arabic_text": "مجموعة جديدة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8666"
+  },
+  "title": "contacts.list.title.header",
+  "english_text": "Contacts",
+  "arabic_text": "جهات اتصال"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8667"
+  },
+  "title": "contacts.list.search.input.label",
+  "english_text": "Search",
+  "arabic_text": "بحث"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8668"
+  },
+  "title": "contacts.list.search.input.plhd",
+  "english_text": "Search by Name",
+  "arabic_text": "البحث حسب الاسم"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8669"
+  },
+  "title": "contacts.table.column.name.full.name",
+  "english_text": "Full Name",
+  "arabic_text": "الاسم الكامل"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f866a"
+  },
+  "title": "contacts.table.column.name.group",
+  "english_text": "Group",
+  "arabic_text": "مجموعة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f866b"
+  },
+  "title": "contacts.table.column.name.contacts",
+  "english_text": "Contacts",
+  "arabic_text": "جهات الاتصال"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f866c"
+  },
+  "title": "contacts.table.column.name.status",
+  "english_text": "Status",
+  "arabic_text": "الحالة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f866d"
+  },
+  "title": "events.table.column.name.eventname",
+  "english_text": "Event Name",
+  "arabic_text": "اسم الحدث"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f866e"
+  },
+  "title": "events.table.column.name.date",
+  "english_text": "Date",
+  "arabic_text": "تاريخ الحدث"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f866f"
+  },
+  "title": "events.table.column.name.guests_invited",
+  "english_text": "Guests Invited",
+  "arabic_text": "الضيوف المدعويين"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8670"
+  },
+  "title": "events.table.column.name.status",
+  "english_text": "Status",
+  "arabic_text": "الحالة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8671"
+  },
+  "title": "events.table.column.name.createdby",
+  "english_text": "Created By",
+  "arabic_text": "تم الإنشاء بواسطة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8672"
+  },
+  "title": "events.table.no.results",
+  "english_text": "No search results found",
+  "arabic_text": "لاتوجد نتائج للبحث"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8673"
+  },
+  "title": "events.table.statuses.sent",
+  "english_text": "Sent",
+  "arabic_text": "تم الإرسال"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8674"
+  },
+  "title": "events.table.statuses.notsent",
+  "english_text": "Not Sent",
+  "arabic_text": "لم يتم الإرسال"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8675"
+  },
+  "title": "events.tab.upcoming",
+  "english_text": "Upcoming Events",
+  "arabic_text": "الأحداث القادمة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8676"
+  },
+  "title": "events.tab.past",
+  "english_text": "Past Events",
+  "arabic_text": "الأحداث السابقة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8677"
+  },
+  "title": "events.header.name.eventslist",
+  "english_text": "Events List",
+  "arabic_text": "قائمة الأحداث"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8678"
+  },
+  "title": "events.header.button.newevent",
+  "english_text": "New Event",
+  "arabic_text": "حدث جديد  "
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8679"
+  },
+  "title": "events.page.textfield.label.search",
+  "english_text": "Search",
+  "arabic_text": "بحث"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f867a"
+  },
+  "title": "events.page.textfield.placeholder.searchby",
+  "english_text": "Search by Name or Details",
+  "arabic_text": "البحث بالاسم أو التفاصيل"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f867b"
+  },
+  "title": "events.page.formcontrol.inputlabel.mainguest",
+  "english_text": "Main guest",
+  "arabic_text": "الضيف الرئيسي"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f867c"
+  },
+  "title": "events.page.formcontrol.menuitem.allguests",
+  "english_text": "All Guests",
+  "arabic_text": "جميع الضيوف"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f867d"
+  },
+  "title": "details.event.tab.details",
+  "english_text": "Details",
+  "arabic_text": "التفاصيل"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f867e"
+  },
+  "title": "details.event.tab.guests",
+  "english_text": "Guests",
+  "arabic_text": "الضيوف"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f867f"
+  },
+  "title": "details.event.tab.invitation",
+  "english_text": "Invitation",
+  "arabic_text": "الدعوة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8680"
+  },
+  "title": "details.createguestlist.header.emptylist",
+  "english_text": "Guest List is Empty",
+  "arabic_text": "قائمة الضيوف فارغة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8681"
+  },
+  "title": "details.createguestlist.button.name.emptylist",
+  "english_text": "Add Guests",
+  "arabic_text": "إضافة ضيوف"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8682"
+  },
+  "title": "details.tab.guestlist.header.name",
+  "english_text": "Create the Guest List",
+  "arabic_text": "حالة الدعوات"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8683"
+  },
+  "title": "details.tab.template.header.choose",
+  "english_text": "Choose template to send",
+  "arabic_text": "اختر قالب معتمد"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8684"
+  },
+  "title": "details.tab.template.header.sent",
+  "english_text": "Invitation Message",
+  "arabic_text": "نص الدعوة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8685"
+  },
+  "title": "details.tab.template.tagslist.header",
+  "english_text": "Tags List",
+  "arabic_text": "قائمة المتغيرات"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8686"
+  },
+  "title": "details.tab.template.tagslist.notags",
+  "english_text": "No tags in the current template",
+  "arabic_text": "لا توجد متغيرات في القالب الحالي"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8687"
+  },
+  "title": "details.tab.template.tags.descript.name",
+  "english_text": "For refer a Events Name",
+  "arabic_text": "اسم الحدث"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8688"
+  },
+  "title": "details.tab.template.tags.descript.datetime",
+  "english_text": "To specify both — date and time of the event",
+  "arabic_text": "تاريخ ووقت الحدث"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8689"
+  },
+  "title": "details.tab.template.tags.descript.location",
+  "english_text": "To specify location of the event",
+  "arabic_text": "موقع الحدث"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f868a"
+  },
+  "title": "details.tab.template.tags.descript.sign",
+  "english_text": "Information about sender",
+  "arabic_text": "معلومات المرسل"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f868b"
+  },
+  "title": "details.tab.template.tags.descript.guest",
+  "english_text": "For refer a Guests name",
+  "arabic_text": "اسم الضيف"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f868c"
+  },
+  "title": "details.tab.template.tags.descript.dress",
+  "english_text": "To specify dress-code of the event",
+  "arabic_text": "اللباس المعتمد للحدث"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f868d"
+  },
+  "title": "details.tab.template.tags.descript.phone",
+  "english_text": "Sender's phone number",
+  "arabic_text": "رقم هاتف المرسل"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f868e"
+  },
+  "title": "details.tab.new.template.textfield.label",
+  "english_text": "Template name",
+  "arabic_text": "اسم القالب"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f868f"
+  },
+  "title": "details.tab.new.template.textfield.placeholder",
+  "english_text": "Name your template",
+  "arabic_text": "قم بتسمية القالب الخاص بك"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8690"
+  },
+  "title": "details.tab.new.template.textfieldmsg.label",
+  "english_text": "Invitation message",
+  "arabic_text": "نص الدعوة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8691"
+  },
+  "title": "details.tab.new.template.textfieldmsg.placeholder",
+  "english_text": "Put your invitation text here",
+  "arabic_text": "ادخل نص الدعوة هنا"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8692"
+  },
+  "title": "details.tab.new.template.textfieldmsg.minchars",
+  "english_text": "length of the input should be at least {{count}} ",
+  "arabic_text": "يجب أن يكون طول الإدخال على الأقل {{count}}"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8693"
+  },
+  "title": "details.tab.new.template.textfieldmsgcontent.minchars",
+  "english_text": "The template message must be at least {{count}} letters long",
+  "arabic_text": "يجب ألا يقل اسم القالب عن {{count}} حروف"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8694"
+  },
+  "title": "details.tabs.search.comp.label",
+  "english_text": "Search",
+  "arabic_text": "بحث"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8695"
+  },
+  "title": "details.tabs.search.comp.placeholder",
+  "english_text": "Search by name, phone number, email, title, group",
+  "arabic_text": "ابحث بالاسم، رقم الهاتف، البريد الإلكتروني، العنوان، المجموعة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8696"
+  },
+  "title": "createguestslist.tab.guestlist",
+  "english_text": "Guest List",
+  "arabic_text": "قائمة الضيوف"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8697"
+  },
+  "title": "createguestslist.tab.contacts",
+  "english_text": "Contacts",
+  "arabic_text": "جهات الاتصال"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8698"
+  },
+  "title": "createguestslist.tab.groups",
+  "english_text": "Groups",
+  "arabic_text": "المجموعات"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8699"
+  },
+  "title": "newev.header.name.createevent",
+  "english_text": "Create event",
+  "arabic_text": "انشاء حدث جديد"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f869a"
+  },
+  "title": "newev.header.button.createevent",
+  "english_text": "Create Event",
+  "arabic_text": "انشاء الحدث"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f869b"
+  },
+  "title": "newev.form.header.name",
+  "english_text": "Set up the basics about event",
+  "arabic_text": "بيانات الحدث"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f869c"
+  },
+  "title": "newev.form.button.save",
+  "english_text": "Save",
+  "arabic_text": "حفظ"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f869d"
+  },
+  "title": "newev.form.button.savetempl",
+  "english_text": "Save template",
+  "arabic_text": "احفظ القالب"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f869e"
+  },
+  "title": "newev.form.button.preview",
+  "english_text": "Preview",
+  "arabic_text": "معاينة القالب"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f869f"
+  },
+  "title": "newev.form.button.sendtest",
+  "english_text": "Send Test",
+  "arabic_text": "إرسال رسالة تجربة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86a0"
+  },
+  "title": "newev.form.button.sendtempl",
+  "english_text": "Confirm and send",
+  "arabic_text": "تأكيد وإرسال"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86a1"
+  },
+  "title": "newev.form.button.sent.send",
+  "english_text": "Send",
+  "arabic_text": "إرسال"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86a2"
+  },
+  "title": "newev.form.textfield.label.evname",
+  "english_text": "Name of Event",
+  "arabic_text": "اسم الحدث"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86a3"
+  },
+  "title": "newev.form.textfield.helptext.warnreqfield",
+  "english_text": "Event name cannot be empty or only spaces",
+  "arabic_text": "اسم الفعالية لا يجب أن يكون فارغًا أو يحتوي على مسافات فقط"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86a4"
+  },
+  "title": "newev.form.textfield.helptext.chars",
+  "english_text": "Please use only letters (A-Z, a-z), numbers (0-9), spaces and special characters",
+  "arabic_text": "يرجى استخدام الأحرف فقط (أ-ي،)، الأرقام (0-9)، المسافات، والأحرف الخاصة.\n"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86a5"
+  },
+  "title": "newev.form.input.label.mainguest.secondary",
+  "english_text": "Secondary Guest",
+  "arabic_text": "ضيف ثانوي"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86a6"
+  },
+  "title": "newev.form.input.label.mainguest.primary",
+  "english_text": "Main Guest",
+  "arabic_text": "الضيف الرئيسي"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86a7"
+  },
+  "title": "newev.form.input.label.dresstypes",
+  "english_text": "اللباس",
+  "arabic_text": "اللباس المعتمد للحدث"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86a8"
+  },
+  "title": "newev.form.mainguest.menuitem.none",
+  "english_text": "none",
+  "arabic_text": "لا يوجد"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86a9"
+  },
+  "title": "newev.form.location.label.search",
+  "english_text": "Search Location",
+  "arabic_text": "ابحث عن موقع"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86aa"
+  },
+  "title": "newev.form.location.input.locadress",
+  "english_text": "Location Address",
+  "arabic_text": "عنوان الحدث"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86ab"
+  },
+  "title": "newev.form.datepicker.label.startdate",
+  "english_text": "Start Date",
+  "arabic_text": "تاريخ بداية الحدث"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86ac"
+  },
+  "title": "newev.form.datepicker.label.enddate",
+  "english_text": "End Date",
+  "arabic_text": "تاريخ نهاية الحدث"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86ad"
+  },
+  "title": "newev.form.formcontrol.label.eventtypes",
+  "english_text": "Event Type",
+  "arabic_text": "نوع الحدث"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86ae"
+  },
+  "title": "newev.form.types.menuitem.none",
+  "english_text": "none",
+  "arabic_text": "لا يوجد"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86af"
+  },
+  "title": "newev.form.descript.label.description",
+  "english_text": "Description",
+  "arabic_text": "ملاحظات إضافية"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86b0"
+  },
+  "title": "newev.form.descript.placeholder.evdescription",
+  "english_text": "Event's description goes here...",
+  "arabic_text": "ادخل أية ملاحظات إضافية للحدث"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86b1"
+  },
+  "title": "newev.form.descript.helpertext",
+  "english_text": "This description will only be visible on our app. None of the guests will see it",
+  "arabic_text": "التفاصيل سيتم رؤيتها داخل التطبيق فقط. لن يتمكن أياً من الضيوف من الاطلاع عليها"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86b2"
+  },
+  "title": "newev.form.preview.greet.msg",
+  "english_text": "Message Result",
+  "arabic_text": "نتيجة الرسالة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86b3"
+  },
+  "title": "newev.form.switch.label.mainguest.secondary.custom",
+  "english_text": "Custom Guest",
+  "arabic_text": "ضيف آخر"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86b4"
+  },
+  "title": "newev.template.msg.info.will.send",
+  "english_text": "Invitation will be sent to {{count}} Guests",
+  "arabic_text": "ستتم دعوة {{count}} ضيفًا"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86b5"
+  },
+  "title": "newev.template.msg.info.was.sent",
+  "english_text": "Invitation was sent to {{count}} Guest(s)",
+  "arabic_text": "تم إرسال الدعوة إلى {{count}} ضيوف"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86b6"
+  },
+  "title": "locationform.checkbox.label.save.for",
+  "english_text": "Save for later",
+  "arabic_text": "احفظها لوقت لاحق"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86b7"
+  },
+  "title": "locationform.header.name.choose",
+  "english_text": "Choose Location",
+  "arabic_text": "اختر الموقع"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86b8"
+  },
+  "title": "locationform.tab.search",
+  "english_text": "Search Location",
+  "arabic_text": "موقع البحث"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86b9"
+  },
+  "title": "locationform.tab.saved",
+  "english_text": "Saved Locations",
+  "arabic_text": "الموقع المحفوظ"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86ba"
+  },
+  "title": "locationform.textfield.label.location",
+  "english_text": "Location",
+  "arabic_text": "الموقع"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86bb"
+  },
+  "title": "locationform.textfield.placeholder.location",
+  "english_text": "Search Location or use Google Map URL",
+  "arabic_text": "ابحث عن الموقع أو استخدم عنوان URL لخريطة جوجل"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86bc"
+  },
+  "title": "locationform.textfield.placeholder.additional",
+  "english_text": "Location Name",
+  "arabic_text": "اسم الموقع"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86bd"
+  },
+  "title": "locationform.textfield.input.locaddress",
+  "english_text": "Location Address",
+  "arabic_text": "عنوان الموقع"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86be"
+  },
+  "title": "locationform.textfield.helptext.location",
+  "english_text": "يمكنك البحث عن الموقع أو مجرد وضع رابط من خرائط جوجل",
+  "arabic_text": "يمكنك البحث عن الموقع أو مجرد وضع رابط من خرائط جوجل"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86bf"
+  },
+  "title": "locationform.button.savelocation",
+  "english_text": "Save Location",
+  "arabic_text": "حفظ الموقع"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86c0"
+  },
+  "title": "warnmodal.headername.unsaved",
+  "english_text": "Unsaved Changes",
+  "arabic_text": "التغييرات غير محفوظة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86c1"
+  },
+  "title": "warnmodal.headername.sendmsgs",
+  "english_text": "Send invitations",
+  "arabic_text": "إرسال الدعوات"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86c2"
+  },
+  "title": "warnmodal.warn.prompt",
+  "english_text": "You have unsaved changes on this page. Are you sure that you want to quit?",
+  "arabic_text": "لم تقم بحفظ التغييرات في هذه الصفحة. هل أنت متأكد من الخروج؟"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86c3"
+  },
+  "title": "warnmodal.warn.msgsprompt",
+  "english_text": "Are you sure you want to send this to {{count}} invitees?",
+  "arabic_text": "هل انت متأكد من دعوة {{count}} ضيفًا؟"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86c4"
+  },
+  "title": "warnmodal.warn.template.delete.confirm",
+  "english_text": "Are you sure you want to delete this template: {{template}}?",
+  "arabic_text": "هل أنت متأكد أنك تريد حذف القالب: \"{{template}}\"؟"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86c5"
+  },
+  "title": "warnmodal.warn.template.delete.header",
+  "english_text": "Template deletion",
+  "arabic_text": "حذف القالب"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86c6"
+  },
+  "title": "warnmodal.warn.template.submit.confirm",
+  "english_text": "Are you sure you want to submit this template: {{template}} for WhatsApp approval?",
+  "arabic_text": "هل أنت متأكد أنك تريد إرسال قالب \"{{template}}\" للموافقة عبر WhatsApp؟"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86c7"
+  },
+  "title": "warnmodal.warn.template.submit.header",
+  "english_text": "Template WhatsApp Approval",
+  "arabic_text": "موافقة قالب WhatsApp"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86c8"
+  },
+  "title": "warnmodal.warn.template.test.confirm",
+  "english_text": "Are you sure you want to send a test message to this phone number: {{phone}}?",
+  "arabic_text": "هل أنت متأكد أنك تريد إرسال رسالة اختبار إلى رقم الهاتف هذا: {{phone}}؟"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86c9"
+  },
+  "title": "warnmodal.warn.template.test.header",
+  "english_text": "Test message",
+  "arabic_text": "رسالة اختبار"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86ca"
+  },
+  "title": "warnmodal.button.name.backdelete",
+  "english_text": "Back & Delete Changes",
+  "arabic_text": "حذف التغييرات و المتابعة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86cb"
+  },
+  "title": "warnmodal.button.name.stayhere",
+  "english_text": "Stay Here",
+  "arabic_text": "العودة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86cc"
+  },
+  "title": "warnmodal.button.name.confirm.send",
+  "english_text": "Send",
+  "arabic_text": "إرسال"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86cd"
+  },
+  "title": "warnmodal.button.name.cancel.send",
+  "english_text": "Cancel",
+  "arabic_text": "إلغاء"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86ce"
+  },
+  "title": "evdetails.card.header.name",
+  "english_text": "About Event",
+  "arabic_text": "عن الحدث"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86cf"
+  },
+  "title": "evdetails.card.date.start",
+  "english_text": "Start Date",
+  "arabic_text": "تاريخ بداية الحدث"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86d0"
+  },
+  "title": "evdetails.card.date.end",
+  "english_text": "End Date",
+  "arabic_text": "تاريخ نهاية الحدث"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86d1"
+  },
+  "title": "evdetails.card.mainguest.name",
+  "english_text": "Main Guest",
+  "arabic_text": "الضيف الرئيسي"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86d2"
+  },
+  "title": "evdetails.card.evtype",
+  "english_text": "Type",
+  "arabic_text": "نوع الحدث"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86d3"
+  },
+  "title": "evdetails.card.location",
+  "english_text": "Location",
+  "arabic_text": "موقع الحدث"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86d4"
+  },
+  "title": "evdetails.card.description",
+  "english_text": "Description",
+  "arabic_text": "ملاحظات إضافية"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86d5"
+  },
+  "title": "evdetails.card.notspecified",
+  "english_text": "Not Specified",
+  "arabic_text": "غير محدد"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86d6"
+  },
+  "title": "evdetails.card.dress",
+  "english_text": "Dress",
+  "arabic_text": "اللباس"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86d7"
+  },
+  "title": "evdetails.card.secondmainguest.name",
+  "english_text": "Secondary Guest",
+  "arabic_text": "ضيف ثانوي"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86d8"
+  },
+  "title": "evdetails.calendar.modal.headername",
+  "english_text": "Name Of Event",
+  "arabic_text": "اسم الحدث"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86d9"
+  },
+  "title": "spinner.header.crnewev",
+  "english_text": "Creating new event",
+  "arabic_text": "انشاء حدث جديد"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86da"
+  },
+  "title": "spinner.header.sendinvits",
+  "english_text": "Sending invitations...",
+  "arabic_text": "جارٍ إرسال الدعوات..."
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86db"
+  },
+  "title": "spinner.header.loadtemplates",
+  "english_text": "Loading WhatsApp templates...",
+  "arabic_text": "جارِ تحميل القوالب"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86dc"
+  },
+  "title": "general.color.name.red",
+  "english_text": "Red",
+  "arabic_text": "أحمر"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86dd"
+  },
+  "title": "general.color.name.black",
+  "english_text": "Black",
+  "arabic_text": "أسود"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86de"
+  },
+  "title": "general.color.name.yellow",
+  "english_text": "Yellow",
+  "arabic_text": "أصفر"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86df"
+  },
+  "title": "general.color.name.pink",
+  "english_text": "Pink",
+  "arabic_text": "وردي"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86e0"
+  },
+  "title": "general.color.name.blue",
+  "english_text": "Blue",
+  "arabic_text": "أزرق"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86e1"
+  },
+  "title": "general.color.name.green.1",
+  "english_text": "Green",
+  "arabic_text": "أخضر"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86e2"
+  },
+  "title": "general.save",
+  "english_text": "Save",
+  "arabic_text": "حفظ"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86e3"
+  },
+  "title": "general.create",
+  "english_text": "Create",
+  "arabic_text": "انشاء"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86e4"
+  },
+  "title": "general.cancel",
+  "english_text": "Cancel",
+  "arabic_text": "الغاء"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86e5"
+  },
+  "title": "general.per.page",
+  "english_text": "per page:",
+  "arabic_text": "لكل صفحة:"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86e6"
+  },
+  "title": "login.with.uae.pass",
+  "english_text": "Login with UAE PASS",
+  "arabic_text": "تسجيل الدخول بالهوية الوطنية"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86e7"
+  },
+  "title": "login.with.test",
+  "english_text": "Login With test",
+  "arabic_text": "تسجيل الدخول كتجربة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86e8"
+  },
+  "title": "modal.view.upload.form.available.formats",
+  "english_text": "SVG, PNG, JPG or GIF (max. 3 MB)",
+  "arabic_text": "SVG، PNG، JPG أو GIF (الحد الأقصى 3 ميحا بأية)"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86e9"
+  },
+  "title": "modal.view.upload.form.link.description",
+  "english_text": "or drag and drop",
+  "arabic_text": "اسحب او اسقِط هنا"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86ea"
+  },
+  "title": "modal.view.upload.form.button.title.upload",
+  "english_text": "Click to upload",
+  "arabic_text": ".title.new.contact"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86eb"
+  },
+  "title": "modal.view.title.new.contact",
+  "english_text": "New Contact",
+  "arabic_text": "بيانات اتصال جديدة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86ec"
+  },
+  "title": "modal.view.title.new.group",
+  "english_text": "New Group",
+  "arabic_text": "مجموعة جديدة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86ed"
+  },
+  "title": "modal.view.title.edit.contact",
+  "english_text": "Edit Contact",
+  "arabic_text": "تعديل جهة الاتصال"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86ee"
+  },
+  "title": "modal.view.title.edit.group",
+  "english_text": "Edit Group",
+  "arabic_text": "تعديل المجموعة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86ef"
+  },
+  "title": "modal.view.input.label.prefix",
+  "english_text": "Prefix",
+  "arabic_text": "اللقب"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86f0"
+  },
+  "title": "modal.view.input.label.name",
+  "english_text": "Name",
+  "arabic_text": "الاسم"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86f1"
+  },
+  "title": "modal.view.input.prefix.placeholder",
+  "english_text": "N/A",
+  "arabic_text": "غير متاح"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86f2"
+  },
+  "title": "modal.view.input.full.name.label",
+  "english_text": "Full Name",
+  "arabic_text": "الاسم الكامل"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86f3"
+  },
+  "title": "modal.view.input.full.name.placeholder",
+  "english_text": "Full name",
+  "arabic_text": "الاسم الكامل"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86f4"
+  },
+  "title": "modal.view.input.email.label",
+  "english_text": "Email",
+  "arabic_text": "البريد الالكتروني"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86f5"
+  },
+  "title": "modal.view.input.email.placeholder",
+  "english_text": "your@mail.com",
+  "arabic_text": "الخاص بك @mail.com"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86f6"
+  },
+  "title": "modal.view.input.phone.number.label",
+  "english_text": "Phone number",
+  "arabic_text": "رقم الهاتف"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86f7"
+  },
+  "title": "modal.view.input.phone.number.placeholder",
+  "english_text": "971 00 000 00 00",
+  "arabic_text": "971 00 000 00 00"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86f8"
+  },
+  "title": "modal.view.input.group.label",
+  "english_text": "Group",
+  "arabic_text": "مجموعة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86f9"
+  },
+  "title": "modal.view.input.group.placeholder",
+  "english_text": "No group",
+  "arabic_text": "لا يوجد مجموعة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86fa"
+  },
+  "title": "modal.view.input.name.plhd",
+  "english_text": "Name",
+  "arabic_text": "الاسم"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86fb"
+  },
+  "title": "modal.view.input.color.label",
+  "english_text": "Color",
+  "arabic_text": "اللون"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86fc"
+  },
+  "title": "modal.view.input.color.plhd",
+  "english_text": "N/A",
+  "arabic_text": "غير متاح"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86fd"
+  },
+  "title": "modal.view.input.add.contactto.group.label",
+  "english_text": "Add participants",
+  "arabic_text": "إضافة أعضاء"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86fe"
+  },
+  "title": "modal.view.input.add.contactto.group.plhd",
+  "english_text": "Search",
+  "arabic_text": "البحث"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f86ff"
+  },
+  "title": "modal.view.button.title.add.personal.assistant",
+  "english_text": "Add an assistant",
+  "arabic_text": "إضافة بيانات المساعد شخصي"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8700"
+  },
+  "title": "modal.view.button.title.remove.personal.assistant",
+  "english_text": "remove assistant",
+  "arabic_text": "إزالة بيانات المساعد شخصي"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8701"
+  },
+  "title": "modal.view.new.pa.title",
+  "english_text": "Assistant Contact",
+  "arabic_text": "بيانات المساعد الشخصي"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8702"
+  },
+  "title": "modal.view.new.contact.pa.input.label",
+  "english_text": "Assistant Full Name",
+  "arabic_text": "الاسم الكامل للمساعد الشخصي"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8703"
+  },
+  "title": "modal.view.new.contact.pa.input.placeholder",
+  "english_text": "Assistant Full Name",
+  "arabic_text": "الاسم الكامل للمساعد الشخصي"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8704"
+  },
+  "title": "modal.view.new.contact.pa.input.email.label",
+  "english_text": "Assistant Email",
+  "arabic_text": "البريد الالكتروني للمساعد الشخصي"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8705"
+  },
+  "title": "modal.view.new.contact.pa.input.email.placeholder",
+  "english_text": "example@mail.com",
+  "arabic_text": "example@mail.com"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8706"
+  },
+  "title": "modal.view.new.contact.pa.input.phone.label",
+  "english_text": "Assistant Phone Number",
+  "arabic_text": "هاتف المساعد الشخصي"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8707"
+  },
+  "title": "modal.view.new.contact.pa.input.phone.placeholder",
+  "english_text": "971 00 000 00 00",
+  "arabic_text": "971 00 000 00 00"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8708"
+  },
+  "title": "modal.view.new.contact.pa.invitation.rule.title",
+  "english_text": "Invitation Rule",
+  "arabic_text": "خيارات إرسال الدعوة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8709"
+  },
+  "title": "modal.view.new.contact.pa.invitation.rule.send.to.pa",
+  "english_text": "Send Invitations to Assistant",
+  "arabic_text": "إرسال الدعوة للمساعد الشخصي"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f870a"
+  },
+  "title": "modal.view.new.contact.pa.invitation.rule.send.to.contact",
+  "english_text": "Send Invitations directly to Guest",
+  "arabic_text": "إرسال الدعوة للضيف"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f870b"
+  },
+  "title": "modal.view.new.contact.default.language.arabic",
+  "english_text": "Arabic",
+  "arabic_text": "العربية"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f870c"
+  },
+  "title": "modal.view.new.contact.default.language.english",
+  "english_text": "English",
+  "arabic_text": "الانجليزية"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f870d"
+  },
+  "title": "modal.view.new.contact.invitation.default.language",
+  "english_text": "Invitation Language",
+  "arabic_text": "لغة الدعوة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f870e"
+  },
+  "title": "contact.contacts.tab",
+  "english_text": "Contacts",
+  "arabic_text": "جهات الاتصال"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f870f"
+  },
+  "title": "contact.groups.tab",
+  "english_text": "Groups",
+  "arabic_text": "المجموعات"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8710"
+  },
+  "title": "groups.table.column.name.group.name",
+  "english_text": "Group name",
+  "arabic_text": "اسم المجموعة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8711"
+  },
+  "title": "groups.table.column.name.number.contacts",
+  "english_text": "Number of contacts",
+  "arabic_text": "عدد جهات الاتصال"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8712"
+  },
+  "title": "groups.table.column.name.participants",
+  "english_text": "Participants",
+  "arabic_text": "الأعضاء"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8713"
+  },
+  "title": "groups.list.search.input.label",
+  "english_text": "Search",
+  "arabic_text": "البحث"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8714"
+  },
+  "title": "groups.list.search.input.plhd",
+  "english_text": "Search by group name",
+  "arabic_text": "البحث باسم المجموعة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8715"
+  },
+  "title": "sidebar.button.title.events",
+  "english_text": "Events",
+  "arabic_text": "الفعاليات"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8716"
+  },
+  "title": "sidebar.button.title.contacts",
+  "english_text": "Contacts",
+  "arabic_text": "جهات الاتصال"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8717"
+  },
+  "title": "sidebar.button.title.logOut",
+  "english_text": "Log Out",
+  "arabic_text": "تسجيل الخروج"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8718"
+  },
+  "title": "sidebar.button.title.scheduler",
+  "english_text": "Calendar",
+  "arabic_text": "الأجندة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8719"
+  },
+  "title": "signin.page.title",
+  "english_text": "Sign in Marasim",
+  "arabic_text": "تسجيل الدخول إلى تطبيق مراسم"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f871a"
+  },
+  "title": "signin.page.welcome.to.marasim",
+  "english_text": "Welcome to Marasim App",
+  "arabic_text": "مرحبا بك في تطبيق مراسم"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f871b"
+  },
+  "title": "notauth.page.sorry",
+  "english_text": "Sorry, you don't have credentials for using app. Please contact the admin",
+  "arabic_text": "عذراً، ليس لديك التخويل لاستخدام التطبيق. الرجاء مراجعة قسم تقنية المعلومات"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f871c"
+  },
+  "title": "notfound.page.title",
+  "english_text": "Page Not Found",
+  "arabic_text": "الصفحة غير موجودة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f871d"
+  },
+  "title": "maps.modal.button.setloc",
+  "english_text": "Set Location",
+  "arabic_text": "حفظ الموقع"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f871e"
+  },
+  "title": "maps.modal.button.saveandset",
+  "english_text": "Save and Set",
+  "arabic_text": "اختيار و حفظ الموقع"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f871f"
+  },
+  "title": "page.print.label",
+  "english_text": "Print",
+  "arabic_text": "طباعة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8720"
+  },
+  "title": "new.contact.modal.add.assistant",
+  "english_text": "Add an assistant",
+  "arabic_text": "إضافة بيانات المساعد شخصي"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8721"
+  },
+  "title": "new.contact.modal.remove.assistant",
+  "english_text": "Remove assistant",
+  "arabic_text": "إزالة بيانات المساعد شخصي"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8722"
+  },
+  "title": "table.page.column.photo",
+  "english_text": "Photo",
+  "arabic_text": "صورة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8723"
+  },
+  "title": "table.page.column.mainguest",
+  "english_text": "Main Guest",
+  "arabic_text": "الضيف الرئيسي"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8724"
+  },
+  "title": "table.label.rows.per.page",
+  "english_text": "Rows per page",
+  "arabic_text": "صفوف لكل صفحة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8725"
+  },
+  "title": "invit.tab.create.template.header",
+  "english_text": "Create a new invitation message",
+  "arabic_text": "إنشاء رسالة دعوة جديدة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8726"
+  },
+  "title": "warning.comp.msg.header",
+  "english_text": "All messages must be verified by Meta",
+  "arabic_text": "يجب التحقق من جميع الرسائل بواسطة Whatsapp"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8727"
+  },
+  "title": "warning.comp.msg.description",
+  "english_text": "Please, pay attention, that every message that you will send and template created must be verified by WhatsApp (Meta). Verification takes up to 2 business days.",
+  "arabic_text": "يرجى الانتباه إلى أن كل رسالة ترسلها وكل قالب يتم إنشاؤه يجب أن يتم التحقق منه بواسطة WhatsApp (Meta). في بعض الأحيان قد تستغرق عملية التحقق ما يصل إلى يومين عمل."
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8728"
+  },
+  "title": "template.no.msg",
+  "english_text": "You don’t have any templates yet",
+  "arabic_text": "لا يوجد قوالب معتمدة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8729"
+  },
+  "title": "crguestslist.tab.guestlist",
+  "english_text": "Guest List ({{count}})",
+  "arabic_text": "قائمة الضيوف ({{count}})"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f872a"
+  },
+  "title": "crguestslist.tab.contacts",
+  "english_text": "Contacts({{count}})",
+  "arabic_text": "جهات الاتصال ({{count}})"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f872b"
+  },
+  "title": "crguestslist.tab.groups",
+  "english_text": "Groups({{count}})",
+  "arabic_text": "المجموعات ({{count}})"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f872c"
+  },
+  "title": "popup.reach.limit.whatsapp",
+  "english_text": "Oops, you have reached the max limit of 1000 messages per 20 minutes. Please try again in 20 minutes.",
+  "arabic_text": "لقد تجاوزت الحد الأقصى المسموح به وهو 1000 رسالة خلال 20 دقيقة. الرجاء المحاولة مرة أخرى بعد 20 دقيقة."
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f872d"
+  },
+  "title": "wa.messages.status.pending",
+  "english_text": "PENDING",
+  "arabic_text": "تم إرسال الدعوة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f872e"
+  },
+  "title": "wa.messages.status.undeliverable",
+  "english_text": "UNDELIVERABLE",
+  "arabic_text": "لم يتم ايصال الدعوة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f872f"
+  },
+  "title": "wa.messages.status.delivered",
+  "english_text": "DELIVERED",
+  "arabic_text": "تم ايصال الدعوة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8730"
+  },
+  "title": "wa.messages.status.expired",
+  "english_text": "EXPIRED",
+  "arabic_text": "انتهت الصلاحية"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8731"
+  },
+  "title": "wa.messages.status.rejected",
+  "english_text": "REJECTED",
+  "arabic_text": "الرقم غير صحيح"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8732"
+  },
+  "title": "wa.messages.status.regret",
+  "english_text": "REGRET",
+  "arabic_text": "اعتذار"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8733"
+  },
+  "title": "wa.messages.status.decline",
+  "english_text": "DECLINE",
+  "arabic_text": "اعتذار"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8734"
+  },
+  "title": "wa.messages.status.seen",
+  "english_text": "SEEN",
+  "arabic_text": "تم مشاهدة الدعوة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8735"
+  },
+  "title": "wa.messages.status.confirm",
+  "english_text": "CONFIRM",
+  "arabic_text": "حضور"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8736"
+  },
+  "title": "wa.messages.status.notsent",
+  "english_text": "NOT SENT",
+  "arabic_text": "لم يتم إرسال الدعوة"
+},
+{
+  "_id": {
+    "$oid": "68246c3f8ac3f59ef03f8737"
+  },
+  "title": "wa.messages.status.sent",
+  "english_text": "Sent",
+  "arabic_text": "مرسل"
+}]
